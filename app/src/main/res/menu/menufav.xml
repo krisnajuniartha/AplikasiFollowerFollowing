@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/favTop"
+        android:title="@string/favorite"
+        android:icon="@drawable/ic_fav_active"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/themeTop"
+        android:title="@string/theme"
+        android:icon="@drawable/ic_dark_mode"
+        app:showAsAction="always"/>
+
+</menu>
